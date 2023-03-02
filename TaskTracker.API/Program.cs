@@ -1,10 +1,7 @@
-using Microsoft.AspNetCore.Identity;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 using System.Text.Json.Serialization;
 using TaskTracker.API.Services;
-using static TaskTracker.API.Features.Tasks.AddTask;
-using static TaskTracker.API.Features.Tasks.AddTask.AddTaskCommandHandler;
 
 namespace TaskTracker.API
 {
