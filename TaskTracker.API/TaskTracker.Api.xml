@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaskTracker.API</name>
+    </assembly>
+    <members>
+        <member name="M:TaskTracker.API.Features.Tasks.TasksController.GetTasksAsync">
+            <summary>
+            Returns all the tasks
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TaskTracker.API.Features.Tasks.TasksController.AddTaskAsync(TaskTracker.API.Features.Tasks.AddTask.AddTaskCommand)">
+            <summary>
+            Adds a new task
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TaskTracker.API.Features.Tasks.TasksController.UpdateTaskAsync(TaskTracker.API.Features.Tasks.UpdateTask.UpdateTaskCommand)">
+            <summary>
+            Updates a task
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TaskTracker.API.Features.Tasks.TasksController.DeleteTaskAsync(System.Guid)">
+            <summary>
+            Deletes a task
+            </summary>
+            <param name="taskId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
